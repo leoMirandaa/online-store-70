@@ -1,0 +1,10 @@
+.catalog h1 {
+  margin-top: 0;
+  color: var(--color-primary-dark);
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-lg);
+}

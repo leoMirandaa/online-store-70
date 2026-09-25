@@ -1,0 +1,38 @@
+.card {
+  border: solid 1px lightgray;
+  width:250px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin: 0px
+}
+
+
+.product-price {
+  margin: 0px;
+  font-size: 16px;
+}
+
+.quantity-picker-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.quantity-picker-container button {
+  background-color: black;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.add-to-card-btn {
+  background-color: black;
+  color: white;
+  border: 0px;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
