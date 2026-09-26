@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import GlobalContext from "../state/globalContext.js";
 
+import { IconShoppingCart } from '@tabler/icons-react';
+
 import { Link } from "react-router";
 
 function Navbar() {
@@ -35,6 +37,10 @@ function Navbar() {
         </div>
 
         <p className="text-white mb-0">{user.name} - {user.id}</p>
+        <Link to="/cart" className="ms-3 btn btn-outline-light">
+          <IconShoppingCart stroke={2} />
+          Cart
+        </Link>
 
       </div>
     </nav>
